@@ -1,0 +1,15 @@
+bin/
+obj/
+.idea/
+.vs/
+*.user
+*.DS_Store
+
+# SPIRV-Cross checkout and the clang AST cache are fetched / produced by scripts/
+/upstream/
+# conformance work area and reports
+/conformance-work/
+conformance-failures.txt
+
+# Private generator tool
+/tools/

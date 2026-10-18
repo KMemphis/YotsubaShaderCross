@@ -1,0 +1,59 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AD930B61-C723-4B75-872F-8F532FF63B80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YotsubaShaderCross", "src\YotsubaShaderCross\YotsubaShaderCross.csproj", "{A34707BA-72D4-49BD-A4C2-A31B4C3F2533}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YotsubaShaderCross.Runtime", "src\YotsubaShaderCross.Runtime\YotsubaShaderCross.Runtime.csproj", "{C72680CE-D6EE-43D6-81BA-59FA6F9ABC95}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{919BFED4-249B-4FD7-8EE4-D106C5699E58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YotsubaShaderCross.Conformance", "tests\YotsubaShaderCross.Conformance\YotsubaShaderCross.Conformance.csproj", "{1089069C-AE71-45E9-B183-3782F371F94A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YotsubaShaderCross.Cli", "src\YotsubaShaderCross.Cli\YotsubaShaderCross.Cli.csproj", "{D3CFD674-09C3-47FF-B03C-94559E7AFA63}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{778559B0-CE94-4035-B4B4-1B9685752D22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpirvToGlsl", "samples\SpirvToGlsl\SpirvToGlsl.csproj", "{E0B0C0F4-9405-4EC0-9DD7-39C4AA95243F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A34707BA-72D4-49BD-A4C2-A31B4C3F2533}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A34707BA-72D4-49BD-A4C2-A31B4C3F2533}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A34707BA-72D4-49BD-A4C2-A31B4C3F2533}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A34707BA-72D4-49BD-A4C2-A31B4C3F2533}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C72680CE-D6EE-43D6-81BA-59FA6F9ABC95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C72680CE-D6EE-43D6-81BA-59FA6F9ABC95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C72680CE-D6EE-43D6-81BA-59FA6F9ABC95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C72680CE-D6EE-43D6-81BA-59FA6F9ABC95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1089069C-AE71-45E9-B183-3782F371F94A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1089069C-AE71-45E9-B183-3782F371F94A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1089069C-AE71-45E9-B183-3782F371F94A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1089069C-AE71-45E9-B183-3782F371F94A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3CFD674-09C3-47FF-B03C-94559E7AFA63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3CFD674-09C3-47FF-B03C-94559E7AFA63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3CFD674-09C3-47FF-B03C-94559E7AFA63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3CFD674-09C3-47FF-B03C-94559E7AFA63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0B0C0F4-9405-4EC0-9DD7-39C4AA95243F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0B0C0F4-9405-4EC0-9DD7-39C4AA95243F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0B0C0F4-9405-4EC0-9DD7-39C4AA95243F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0B0C0F4-9405-4EC0-9DD7-39C4AA95243F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A34707BA-72D4-49BD-A4C2-A31B4C3F2533} = {AD930B61-C723-4B75-872F-8F532FF63B80}
+		{C72680CE-D6EE-43D6-81BA-59FA6F9ABC95} = {AD930B61-C723-4B75-872F-8F532FF63B80}
+		{1089069C-AE71-45E9-B183-3782F371F94A} = {919BFED4-249B-4FD7-8EE4-D106C5699E58}
+		{D3CFD674-09C3-47FF-B03C-94559E7AFA63} = {AD930B61-C723-4B75-872F-8F532FF63B80}
+		{E0B0C0F4-9405-4EC0-9DD7-39C4AA95243F} = {778559B0-CE94-4035-B4B4-1B9685752D22}
+	EndGlobalSection
+EndGlobal
